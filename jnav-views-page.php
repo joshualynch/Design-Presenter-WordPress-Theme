@@ -66,7 +66,7 @@ Template Name: Design View Pages w/ Dropdown
 
 <div class="clr"></div>    
   
-  		<div id="author-meta-view">
+  		<div id="author-meta">
 
 			<p>
             
@@ -127,7 +127,7 @@ Template Name: Design View Pages w/ Dropdown
             </p>    
 
 		</div>
-        <!--end #author-meta-view--> 
+        <!--end #author-meta--> 
 
 	</div> <!--end #bg-repeat-->
 
