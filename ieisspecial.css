@@ -1,0 +1,29 @@
+#nav ul li em {
+	postition: relative;
+	bottom: 10px;
+}
+
+#nav ul li em {
+	position: relative;
+}
+
+#nav ul li a {
+	position: relative;
+}
+
+/* Fix the z-index error in IE6 IE7 */
+
+#jnav {
+	position: relative;
+	z-index: 4000;
+}
+
+#bg-repeat {
+	position: relative;
+	z-index: -5;
+}
+
+a#header-slidetoggle,
+a#return-blogpage {
+	z-index: -1;
+}

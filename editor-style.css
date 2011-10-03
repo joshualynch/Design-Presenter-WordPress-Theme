@@ -1,0 +1,175 @@
+/*================================================
+
+Some default tags
+
+================================================*/
+
+html .mceContentBody {
+	font-size: 62.5%;
+	font-family:  Lucida Grande, Arial, Verdana, sans-serif;
+	color: #333;
+	line-height: 1.2;
+}
+
+a {
+color: #369;
+text-decoration: none;
+}
+
+a:hover {
+text-decoration: underline;
+}
+
+
+a img {
+	border: 0 none;
+}
+
+p {
+	font-size: 1.4em;
+	line-height: 18px;
+	margin-bottom: 20px;
+}	
+
+h2, h3, h4, h5, h6  {
+	margin-bottom: 15px;
+	font-weight: normal;
+}
+
+h2 {
+	font-family: Georgia, Times, serif;
+	font-size: 2.8em;
+}
+
+
+h3  {
+	font-size: 2.5em;
+	margin-top: 20px;
+	font-weight: 700;
+}
+
+
+h4  {
+	font-size: 2em;
+	margin-top: 15px;
+	font-family: Georgia, Times, serif;
+}
+
+h5  {
+	font-size: 1.8em;
+	font-family: Georgia, Times, serif;
+	font-style: italic;
+}
+
+
+h6  {
+	font-size: 1.2em;
+	font-family: Georgia, Times, serif;
+	font-weight: bold;
+}
+
+
+code  {
+	color: #386b9e;
+	font-family: "Courier New", Courier, monospace;
+}
+
+
+pre  {
+	padding: 10px;
+	border: 1px dashed #1b304c;
+	background: #e6e6e6;
+	font-family: "Courier New", Courier, monospace;
+	margin-bottom: 20px;
+}
+
+ol,
+ul {
+	margin-bottom: 20px;
+	padding-left: 40px;
+	font-size: 1.2em;
+}
+
+ol li {
+	list-style: decimal;
+}
+ 
+ul li {
+	list-style: disc;
+}
+
+blockquote {
+	margin: 20px 20px 20px 0;
+	padding: 0 0 0 40px;
+	background: url(images/quote.png) no-repeat;
+}
+
+#content p a.button {
+	font-size: .85em;
+}
+
+a.button {
+	font-size: 1em;
+	text-decoration: none;
+	padding: 5px 10px;
+	background: #cc3727;
+	color: #FFF;
+	font-weight: 700;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	border: none;
+	margin: 0 20px 20px 0;
+	white-space: nowrap;
+	display: inline-block;
+}
+
+
+a.button:hover  {
+	background: #86979B;
+	color: #FFF;
+	text-decoration: none;
+}
+
+.alert  {
+	background: #ffffe0;
+	border: 1px #e6db55 solid;
+	padding: 10px 5px;
+	margin-bottom: 20px;
+	font-size: 1.2em;
+}
+
+/*================================================
+
+Images and captions
+
+================================================*/
+
+
+.wp-caption  {
+	text-align: center;
+	padding-top: 4px;
+	margin: 10px 10px 5px 10px;
+}
+
+
+.wp-caption img  {
+	margin: 0;
+	padding: 0;
+	border: 0 none;
+}
+
+
+.wp-caption a img  {
+	margin: 0;
+	padding: 0;
+	border: 0 none;
+}
+
+.wp-caption-dd {
+	font-size: .86em;
+	line-height: 1.2;
+	padding: 5px 4px;
+	margin: 0;
+}
+

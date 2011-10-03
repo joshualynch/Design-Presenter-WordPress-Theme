@@ -1,0 +1,77 @@
+Theme Name: Design Presenter
+
+Theme URL: http://designpresenter.com
+
+Description: Page templated with theme options and page options for displaying design renderings like they would appear in a browser.
+
+Author: Joshua Lynch
+
+Author URI: http://joshualyn.ch
+
+WordPress AdminPage Class script by Markus Thommes distributed with extended license: http://codecanyon.net/item/wordpress-adminpage-class/115872 Do not redistribute without purchasing an extended license for this script.
+
+Version: 1.4
+
+Changelog: 
+
+1.4 - 9/29/2011 - Typography and readability enhancements. Code cleaning.
+
+1.3.1 - 8/7/2011 - Fixed bug on Client Page Template that was limiting display of child pages to five. Updated button styles to clean up display of more than five buttons.
+
+1.3 - 3/8/2011 - Moved jQuery from Google to functions from header file. Moved theme options pages under Appearances, per WordPress recommendations. Added free fonts from Google Font Directory to stylesheet. Gave header and footer grid background image.
+
+1.2 - 2/11/2011 - Added page template with jQuery navigation menu. Enhanced disclaimer on client pages by making it optional. Enhanced footer contact info by making phone number and title fields optional. Made Help link at bottom of pages optional. Cleaned up 404 and index templates.
+
+1.1 - 1/29/2011 - Fixed missing stripslashes to footer scripts admin option. Added :active selector to button styles for click effect. Enhanced return to top link with jQuery smooth scroll. 
+
+License: GNU GPL V2
+
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
+
+
+
+Theme Instructions
+
+Initial Theme Setup
+
+	WordPress Settings
+
+		The following WordPress settings will be used by the theme in pages:
+
+		On the General Settings page, the Site Title field will be used next to the logo in the header. The Tagline field is also used in the theme in the title tags. On the Privacy page, it is recommended to keep the default WordPress setting to "I would like to block search engines, but allow normal visitors," especially if you will be password protecting pages. Finally, on the Permalink page, leave the default setting at /%year%/%monthnum%/%postname%/ so that your page permalinks are user friendly.
+
+	User Settings
+
+		Users who will be creating pages should have at least Editor permissions. After creating the accounts, users may fill in the Title and Phone Number fields of user profiles, which are used in the theme.
+
+	Theme Options
+
+		Do not forget to fill out the Theme Options page to brand the theme to your liking. Detailed instructions are beneath each field on that page.
+
+
+Posting a Design
+
+	1. Create a Client Page
+
+		When presenting a design to a client, add a new page and title it (reommended that you include the client name in the title and customize the URL, so they feel special!). Under Page Attributes, select "Client Page" as the Template. Then fill the content area with information about your design. Optionally password protect the page in your Publish box by setting Visibility to Password Protected and typing in a password.
+
+	2. Create Design Pages
+
+		Title a new page with a short descriptive title like "Homepage." Optionally password protect the page in your Publish box by setting Visibility to Password Protected and typing in a password the same as the other pages you make for this client. In the Page Attributes box, select the appropriate Client Page as the Parent from the dropdown menu. Set the page template to Design View Pages with Buttons or Design View Pages with Dropdown (especially handy for when you have lots of design pages that need to be tucked away nicely). Optionally place a numeral (starting with 1) into the Order box to set the order of design pages in the navigation.
+
+		Using the WordPress image uploader, upload a design draft image. Recommended settings: Save your design drafts as PNG-24s. Make sure that only the necessary width is uploaded. If you have a 960px wide design with a solid color background, upload a 980px image (so that some background shows on both sides) and use Design Presenter settings to set the backgound color (or the repeating background). Uploading a 1200px wide image for a 960px wide design is unnecessary and will present users with 1024 resolution with a horizontal scroll bar. When you upload and insert an image, make sure you select Full Size and choose the correct image alighment. If your design is centered, choose Center under Alignment. If it is left-aligned, choose Left. There is no need to fill out any more fields. Just click the Insert into Post button.
+
+		Underneath the main content editor, the section labeled Display Controls for Design View Pages will allow you to enter in the Sub-Navigation Link Color to make the "Design Description" and "Hide Navigation" buttons stand out against darker color design backgrounds, if necessary. You may also adjust the positioning of those buttons to the right (default) or left to avoid overlapping anything important at the top of your design.
+
+		If the design has a solid colored body background, fill in that color in hexadecimal (including the #) in the Background Color field. If it has a repeating image background of some kind, upload the background image using the WordPress image uploader. Then paste the full URL to the image location in the Repeating Background Image field. Finally, select the repeat type from the dropdown menu.
+
+		Selecting the author from the Author dropdown will determine whose contact information will display on the page.
+
+	3. Send Design to Clients
+
+		Once you have published all of your pages, you should have a client page URL (and possibly password) to send to your client. The client page will automatically list the subpages (your design drafts). On the design pages, all of the design drafts, including the one being viewed, will be displayed in the navigation.
+
+Get Help
+
+	Try me at support@designpresenter.com, and I may be able to help.
