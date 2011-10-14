@@ -31,7 +31,7 @@ j(document).ready(function() {
   });
   j('#header-slidetoggle').click(function() {
     j('#header').slideToggle(400);
-	j('#author-meta-view').slideToggle(400);
+	j('#author-meta').slideToggle(400);
 	j(this).text(j(this).text() == 'Show Navigation' ? 'Hide Navigation' : 'Show Navigation');
     return false;
   });
