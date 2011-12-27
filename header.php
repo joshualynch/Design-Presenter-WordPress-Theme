@@ -6,18 +6,19 @@
 
 	<meta charset="<?php bloginfo( 'charset' ); ?>" />
 
-	<title><?php wp_title(); ?> : <?php bloginfo('name'); ?> : <?php bloginfo('description'); ?></title>
+	<!-- Recommened you use WordPress SEO by Yoast plugin if you want custom title tags -->
+	<title><?php wp_title(''); ?></title>
 
 	<link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" media="screen" />
 
 		<!--[if IE]>
 
-			<link rel="stylesheet" type="text/css" href="<?php echo home_url(); ?>/wp-content/themes/presenter/ieisspecial.css" />
+			<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory'); ?>/ieisspecial.css" />
 
 		<![endif]-->
 
 	<!-- Include fonts from Google -->
-    <link href='http://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
+    	<link href='http://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
 
 	<link href='http://fonts.googleapis.com/css?family=Droid+Serif' rel='stylesheet' type='text/css'>
 
