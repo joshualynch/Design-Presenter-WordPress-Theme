@@ -24,7 +24,7 @@
 	<?php wp_head(); ?>	
 
 	<!-- Include local script -->
-	<script type="text/javascript" src="<?php echo home_url(); ?>/wp-content/themes/presenter/slider.js"></script>
+	<script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/slider.js"></script>
    
 	<!-- Start loop here to get custom fields meta per page -->
 	<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
